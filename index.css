@@ -1,0 +1,18 @@
+@import "./css/main.css";
+
+.myimages {
+    object-fit: contain;
+    text-align: center;
+    padding: 25px;
+    width: 500px;
+    height: 200px;
+    position: static;
+}
+
+figure {
+    display: inline-block;
+    font-size: large;
+    font-variant: normal;
+    text-align: center;
+    font-style: normal;
+}

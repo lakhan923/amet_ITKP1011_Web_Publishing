@@ -2,26 +2,16 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-@media screen {
-    p.bodyText {
-        font-family: 'Times New Roman';
-    }
-}
-
 @media print {
     p.bodyText {
-        font-family: 'Times New Roman';        
+        font-family: 'Times New Roman', serif;
+        font-size: 10pt;
     }
     .no-print, .no-print * {
         display: none !important;
     }
 }
 
-@media screen, print {
-    p.bodyText {
-        font-size: 10pt;
-    }
-}
 
 .flexbox-mainheader {
     display: flex;

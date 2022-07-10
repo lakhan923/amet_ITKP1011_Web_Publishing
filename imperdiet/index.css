@@ -1,0 +1,15 @@
+@import "../css/main.css";
+
+
+
+table {
+    border-collapse: collapse;
+    border-style: dotted;
+    width: 20%;
+    border-color: #9D9C9A;
+    height: 40%;
+}
+
+th, td {
+    border: 1px solid #9D9C9A;
+}
