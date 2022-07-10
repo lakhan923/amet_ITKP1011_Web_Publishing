@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @media screen {
+            p.bodyText {
+                font-family: 'Times New Roman';
+            }
+        }
+
+        @media print {
+            p.bodyText {
+                font-family: 'Times New Roman';
+            }
+
+            .no-print, .no-print * {
+                display: none !important;
+            }
+        }
+
+        @media screen, print {
+            p.bodyText {
+                font-size: 10pt;
+            }
+        }
+        .mainheader {
+            display: flex;
+            background: #C9C9C9;
+        }
+
+        .sidebar {
+            background: #C9C9C9;
+            height: 1710px;
+            width: 250px;
+        }
+
+        .search-bar[type=text] {
+            float: left;
+            overflow: hidden;
+            background-color: #e9e9e9;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('searchicon.png');
+        }
+
+        .sidebar a {
+            padding: 0px 80px 0px 0px;
+            color: #373BBE;
+            display: block;
+        }
+
+            .sidebar a:hover {
+                color: #064579;
+            }
+
+        .youtubevideo {
+            width: 560px;
+            height: 320px;
+        }
+
+        .vasen {
+            float: left;
+            margin: 0em;
+        }
+
+        .oikea {
+            float: right;
+            margin: 1em;
+        }
+
+        .oikea-inline {
+            float: inline-start;
+            margin: 0em;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .clear-left {
+            clear: right;
+        }
+
+        .clear-right {
+            clear: left;
+        }
+        
+        .flexbox-footer {
+            display: flex;
+            background: #C9C9C9;
+        }
+
+        .flexbox-footer-1 {
+            flex-grow: 1;
+        }
+
+        .flexbox-footer-2 {
+            flex-grow: 0;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <nav class="vasen sidebar no-print">
+        <ul>
+            <li>
+                <a href="../../imperdiet/">imperdiet</a>
+                <ul>
+                    <li><a href="../faucibus/"> faucibus</a></li>
+                    <li><a href="./"> fusce </a></li>
+                    <li><a href="../sodales/"> sodales</a></li>
+                </ul>
+            <li><a href="../../nec/"> nec</a></li>
+            <li><a href="../../tellus/"> tellus</a></li>
+            <li>
+                <a href="../../vel/"> vel</a>
+                <ul>
+                    <li><a href="../../vel/aliquet/"> aliquet</a></li>
+                    <li><a href="../../vel/erat/"> erat</a></li>
+                </ul>
+
+
+        </ul>
+
+        <div class="search-bar no-print">
+            <form>
+                <input type="text" name="Search" placeholder="Search">
+                <button type="submit">Hae</button>
+            </form>
+        </div>
+    </nav>
+
+    <header class="mainheader no-print">
+        <a href="https://www.jyu.fi/"> Jyväskylän yliopisto |</a>
+        <a href="https://www.jyu.fi/it/"> Informaatioteknologian tiedekunta |</a>
+        <a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriojeljat/tietoteknikki"> Tietotekniikan oppiaine |</a>
+        <a href="https://appro.mit.jyu.fi/itkp1011/"> ITKP1011 </a>
+    </header>
+    <h1>fusce - Taso 3</h1>
+
+    <p>Suspendisse tristique commodo turpis, eu porta libero mollis nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam efficitur libero urna, vitae cursus nulla aliquam nec. Nunc vitae velit massa. Cras augue tellus, luctus a molestie vel, porttitor ac diam. Phasellus bibendum, purus sed faucibus ornare, mauris mi posuere magna, ac lobortis ex arcu ac metus. Nam nec mi elit. Pellentesque iaculis, quam non mattis suscipit, justo nulla elementum ipsum, sit amet tempor ante risus id urna. Morbi vel eros non lorem pulvinar faucibus. Fusce mattis eros felis, consectetur consequat mauris tempor in. Donec non ante sit amet purus convallis sagittis eget eu mauris. Mauris eget aliquet orci, egestas sodales ante. Aenean egestas quis lacus non luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium at ante et bibendum. Integer imperdiet augue sed sapien tristique finibus.</p>
+
+    <p>In hac habitasse platea dictumst. Sed maximus purus a metus porta tristique. Suspendisse vehicula dui sit amet erat tempor, eu lobortis nunc feugiat. Mauris et ligula libero. Sed condimentum neque mauris, eget pretium ex ultrices in. Suspendisse vitae consequat sapien, quis hendrerit libero. Sed mattis quam porta tellus dignissim sodales. Proin scelerisque velit sit amet velit fermentum tempus. Vivamus ut sodales lectus, vel aliquet purus. Sed tincidunt iaculis lorem id lacinia.</p>
+
+
+    <iframe class="youtubevideo" src="https://www.youtube.com/embed/4rb8aOzy9t4" allow="fullscreen"></iframe>
+    <p>
+        <a href="https://www.youtube.com/embed/4rb8aOzy9t4">https://www.youtube.com/embed/4rb8aOzy9t4</a>
+    </p>
+
+    <p>Donec pulvinar arcu in risus vehicula mollis. Cras ut interdum ex. Fusce ut elit quis massa porttitor tristique. Integer aliquam sem ligula, vitae rhoncus orci placerat a. In porta sed dui id sagittis. Aliquam a lectus non arcu ultricies dignissim. Cras eu est lorem. In vehicula dolor id mattis vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec orci metus, gravida ac mollis non, feugiat a erat. Phasellus sit amet lacus ullamcorper, vestibulum sapien placerat, iaculis arcu.</p>
+
+    <p>In sem dolor, pellentesque interdum scelerisque vel, feugiat et massa. Pellentesque a mauris aliquet, molestie mi id, varius mi. Nunc tincidunt malesuada eros at tempor. Ut ac porta nisi, vel laoreet dolor. Proin nibh eros, lacinia ac felis et, feugiat facilisis dolor. Nulla luctus quam eget dolor dignissim, sed volutpat dolor suscipit. Vivamus nec elementum magna, at porta nibh.</p>
+
+    <h1>Video</h1>
+    <video controls>
+        <source class="youtubevideo" src="../../images//video.mp4"> allow="fullscreen">
+    </video>
+
+    <h1>Ääni</h1>
+    <audio controls>
+
+        <source src="../../images//musiikki.mp3" type="audio/mp3">
+
+    </audio>
+    <div class="flexbox-footer no-print">
+        <a class="flexbox-footer-1" href="../../">ITKP1011 Harjoitustyö</a>
+        <span class="flexbox-footer-2">
+            ©Laiba Khan
+        </span>
+    </div>
+
+</body>
+</html>
+

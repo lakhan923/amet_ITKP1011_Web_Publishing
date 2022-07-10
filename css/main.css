@@ -1,0 +1,82 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+@media screen {
+    p.bodyText {
+        font-family: 'Times New Roman';
+    }
+}
+
+@media print {
+    p.bodyText {
+        font-family: 'Times New Roman';        
+    }
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+
+@media screen, print {
+    p.bodyText {
+        font-size: 10pt;
+    }
+}
+
+.flexbox-mainheader {
+    display: flex;
+    background: #C9C9C9;
+    column-gap: 2em;
+}
+
+
+.sidebar {
+    background: #C9C9C9;
+    border-style: dashed;
+    border-color: #9D9C9A;
+    border-width: thick;
+    height: 200px;
+    width: 200px;
+}
+
+    .sidebar a {
+        padding: 0px 80px 0px 0px;
+        color: #373BBE;
+        display: block;
+    }
+
+        .sidebar a:hover {
+            color: #064579;
+        }
+
+.vasen {
+    float: left;
+    margin: 1em;
+}
+
+.oikea {
+    float: right;
+    margin: 1em;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear-left {
+    clear: right;
+}
+
+
+.flexbox-footer {
+    display: flex;
+    background: #C9C9C9;
+}
+
+.flexbox-footer-1 {
+    flex-grow: 1;
+}
+
+.flexbox-footer-2 {
+    flex-grow: 0;
+}
