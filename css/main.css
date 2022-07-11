@@ -1,11 +1,10 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: Dejavu Sans;
 }
 
 @media print {
     p.bodyText {
-        font-family: 'Times New Roman', serif;
-        font-size: 10pt;
+        font-family: "Times New Roman", serif;
     }
     .no-print, .no-print * {
         display: none !important;
@@ -13,14 +12,29 @@ body {
 }
 
 
+
 .flexbox-mainheader {
     display: flex;
     background: #C9C9C9;
-    column-gap: 2em;
 }
 
+    .flexbox-mainheader > span {
+        padding: 0.2rem 0 0.2rem 0.6rem;
+    }
+
+
+    .flexbox-mainheader :after {
+        content: '|';
+        padding: 0 0 0 0.2rem;
+        color: #A29FA3;
+    }
+
+    .flexbox-mainheader :last-child:after {
+        content: '';
+    }
 
 .sidebar {
+
     background: #C9C9C9;
     border-style: dashed;
     border-color: #9D9C9A;

@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>fusce</title>
 </head>
 <body>
 
-    <nav class="vasen sidebar no-print">
+    <nav class="vasen-marginless sidebar no-print">
         <ul>
             <li>
                 <a href="../index.html">imperdiet</a>
                 <ul>
                     <li><a href="../faucibus/index.html"> faucibus</a></li>
-                    <li><a href=""> fusce </a></li>
+                    <li><a href="./"> fusce </a></li>
                     <li><a href="../sodales/index.html"> sodales</a></li>
                 </ul>
             <li><a href="../../nec/index.html"> nec</a></li>
@@ -29,19 +30,21 @@
         </ul>
 
         <div class="search-bar no-print">
-            <form>
-                <input type="text" name="Search" placeholder="Search">
-                <button type="submit">Hae</button>
+            <form action="http://www.google.com/search" method="get">
+                <div>
+                    <input type="text" name="Search" placeholder="Search">
+                    <input type="submit" value="Hae" />
+                </div>
             </form>
         </div>
     </nav>
 
-    <header class="mainheader no-print">
-        <a href="https://www.jyu.fi/"> Jyväskylän yliopisto |</a>
-        <a href="https://www.jyu.fi/it/"> Informaatioteknologian tiedekunta |</a>
-        <a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriojeljat/tietoteknikki/"> Tietotekniikan oppiaine |</a>
-        <a href="https://appro.mit.jyu.fi/itkp1011/"> ITKP1011 </a>
-    </header>
+    <div class="flexbox-mainheader no-print">
+        <span><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></span>
+        <span><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a> </span>
+        <span><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka/">Tietotekniikan oppiaine</a></span>
+        <span><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a> </span>
+    </div>
     <h1>fusce - Taso 3</h1>
 
     <p>Suspendisse tristique commodo turpis, eu porta libero mollis nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam efficitur libero urna, vitae cursus nulla aliquam nec. Nunc vitae velit massa. Cras augue tellus, luctus a molestie vel, porttitor ac diam. Phasellus bibendum, purus sed faucibus ornare, mauris mi posuere magna, ac lobortis ex arcu ac metus. Nam nec mi elit. Pellentesque iaculis, quam non mattis suscipit, justo nulla elementum ipsum, sit amet tempor ante risus id urna. Morbi vel eros non lorem pulvinar faucibus. Fusce mattis eros felis, consectetur consequat mauris tempor in. Donec non ante sit amet purus convallis sagittis eget eu mauris. Mauris eget aliquet orci, egestas sodales ante. Aenean egestas quis lacus non luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium at ante et bibendum. Integer imperdiet augue sed sapien tristique finibus.</p>
@@ -69,6 +72,7 @@
         <source src="../../images//musiikki.mp3" type="audio/mp3">
 
     </audio>
+
     <div class="flexbox-footer no-print">
         <a class="flexbox-footer-1" href="../../index.html">ITKP1011 Harjoitustyö</a>
         <span class="flexbox-footer-2">

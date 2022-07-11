@@ -1,18 +1,14 @@
 @import "./css/main.css";
 
 .myimages {
-    object-fit: contain;
-    text-align: center;
-    padding: 25px;
-    width: 500px;
-    height: 200px;
-    position: static;
+/*    display: flex;
+    padding: 5em 0 0 0;*/
+    max-width: 30em;
+    
 }
+
 
 figure {
     display: inline-block;
-    font-size: large;
-    font-variant: normal;
     text-align: center;
-    font-style: normal;
 }

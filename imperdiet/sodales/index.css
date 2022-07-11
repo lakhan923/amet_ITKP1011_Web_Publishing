@@ -1,1 +1,15 @@
 @import "../../css/main.css";
+
+.myimages {
+    display: flex;
+    max-width: 15em;
+    padding: 0em 2em 0em 3em;
+
+}
+
+figure {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
