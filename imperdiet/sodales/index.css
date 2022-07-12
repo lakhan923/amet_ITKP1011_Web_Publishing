@@ -1,15 +1,16 @@
 @import "../../css/main.css";
 
 .myimages {
-    display: flex;
-    max-width: 15em;
-    padding: 0em 2em 0em 3em;
-
+    display: block;
+    max-width: 350px;
+    max-height: 480px;
+    width: auto;
+    height: auto;
 }
 
 figure {
     display: inline-block;
-    margin-left: auto;
+    text-align: center;
     margin-right: auto;
     text-align: center;
 }
