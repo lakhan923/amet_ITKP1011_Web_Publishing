@@ -1,15 +1,43 @@
 body {
-    font-family: 'Dejavu Sans';
+    font-family: 'Dejavu Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 @media print {
-    p.bodyText {
+    body {
         font-family: 'Times New Roman', serif;
     }
 
     .no-print, .no-print * {
         display: none !important;
     }
+}
+
+@media screen and (max-width: 600px) {
+    div.flexbox-mainheader {
+        display: none;
+    }
+
+    div.borderless{
+        border-style:none;
+    }
+
+    div.sidebar {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    div.flexbox-mainheader {
+        display: flex;
+    }
+
+    div.sidebar {
+        display: none;       
+    }
+
+
 }
 
 .myimages-small {
@@ -24,6 +52,10 @@ body {
     max-height: 480px;
     width: auto;
     height: auto;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 figure {
@@ -63,7 +95,7 @@ th, td {
     border-style: solid;
     border-color: #C9C9C9;
     border-width: thin;
-    height: 1710px;
+    height: 1817px;
     width: 250px;
 }
 
@@ -72,12 +104,13 @@ th, td {
     border-style: dashed;
     border-color: #9D9C9A;
     border-width: thick;
-    height: 200px;
-    width: 200px;
+    height: 210px;
+    width: 210px;
+
 }
 
     .sidebar a, .sidebar-long a {
-        padding: 0px 80px 0px 0px;
+        padding: 0.1em 0 0 0;
         color: #373BBE;
         display: block;
     }
