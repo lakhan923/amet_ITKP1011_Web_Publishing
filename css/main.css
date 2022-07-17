@@ -37,17 +37,14 @@ body {
     }
 
     nav.sidebar-long {
-        height: 220px;
-        width: 220px;
-        float: right;
+        height: 210px;
+        width: 230px;
+        float: left;
+        margin: 1em 0.2em 1em 0.2em;
     }
 
     nav.sidebar {
         border-style: none;
-    }
-
-    img {
-        max-width: 100%;
     }
 
     h1 {
@@ -62,6 +59,23 @@ body {
     iframe.youtubeVideoWrapperiframe {
         left: 2em;
     }
+
+    div.main-content{
+        clear: both;
+    }
+
+    nav.sidebar {
+        margin: 1em 0.2em 1em 0.2em;
+    }
+
+    div.sidebar {
+        margin: 1em 0.2em 1em 0.2em;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .myimages-small {
@@ -72,15 +86,19 @@ body {
 }
 
 .myimages-medium {
-    max-width: 512px;
-    max-height: 480px;
-    width: auto;
-    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 ul {
     padding-left: 20px;
 }
+
+nav > ul {
+    margin: 0.2em 0 0.2em 0;
+}
+
 
 figure {
     display: inline-block;
@@ -149,8 +167,8 @@ th, td {
     border-style: dashed;
     border-color: #9D9C9A;
     border-width: thick;
-    height: 200px;
-    width: 220px;
+    height: 210px;
+    width: 230px;
 }
 
     .sidebar a, .sidebar-long a {
@@ -202,6 +220,7 @@ th, td {
 
 .vasen-marginless {
     float: left;
+    margin: 0;
 }
 
 .oikea {
@@ -217,7 +236,7 @@ th, td {
     clear: right;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
+.push {
+    clear: both;
+    height: 2.5em;
 }
