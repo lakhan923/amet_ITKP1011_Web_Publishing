@@ -64,11 +64,7 @@ body {
         clear: both;
     }
 
-    nav.sidebar {
-        margin: 1em 0.2em 1em 0.2em;
-    }
-
-    div.sidebar {
+    nav.sidebar, div.sidebar {
         margin: 1em 0.2em 1em 0.2em;
     }
 }
