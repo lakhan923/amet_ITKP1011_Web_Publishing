@@ -115,8 +115,8 @@ th, td {
 }
 
 .youtubeVideo {
-    width: 80vw;
-    height: calc(75vw*0.5625);
+    width: 82vw;
+    height: calc(82vw*0.5625);
     border:none;
 }
 
@@ -159,8 +159,8 @@ th, td {
 /*experimental css ends here*/
 
 .localVideo {
-    width: 85vw;
-    height: calc(90vw*0.5625);
+    width: 100vw;
+    height: calc(100vw*0.5625);
     background-color: black !important;
 }
 
