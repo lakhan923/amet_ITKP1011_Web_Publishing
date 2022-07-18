@@ -51,16 +51,25 @@ body {
         font: bold 120%;
     }
 
-    video.videoWrapperVideo {
+    video.localVideo {
+        width: 97vw;
+        height: calc(97vw*0.5625);
+    }
+
+    iframe.youtubeVideo {
+        margin: 1em 1em 1em 2em;
+    }
+
+    /*    video.videoWrapperVideo {
         width: 100vw;
         height: calc(100vw*0.5625);
     }
 
     iframe.youtubeVideoWrapperiframe {
         left: 2em;
-    }
+    }*/
 
-    div.main-content{
+    div.main-content {
         clear: both;
     }
 
@@ -115,19 +124,36 @@ th, td {
 }
 
 
-.youtubeVideoWrapper {
+
+
+.youtubeVideo {
+    width: 80vw;
+    height: calc(80vw*0.5625);
+}
+
+
+
+
+.localVideo {
+    width: 80vw;
+    height: calc(80vw*0.5625);
+    background-color: black !important;
+}
+
+
+/*.youtubeVideoWrapper {
     position: relative;
-    padding-bottom: 33.25%;
+    padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
 }
 
-    .youtubeVideoWrapperiframe {
-        position: absolute;
-        top: 0;
-        width: 84vw;
-        height: calc(84vw*0.4025);
-    }
+.youtubeVideoWrapperiframe {
+    position: absolute;
+    top: 0;
+    width: 84vw;
+    height: calc(84vw*0.5625);
+}
 
 
 .videoWrapper {
@@ -137,24 +163,21 @@ th, td {
     height: 0;
 }
 
-    .videoWrapperVideo {
-        position: absolute;
-        top: 0;
-        width: 85vw;
-        height: calc(85vw*0.5625);
-        background-color: black !important; /* or whatever you want */
-    }
-
-
-
-
+.videoWrapperVideo {
+    position: absolute;
+    top: 0;
+    width: 85vw;
+    height: calc(85vw*0.5625);
+    background-color: black !important;
+}
+*/
 
 .sidebar-long {
     background: #C9C9C9;
     border-style: solid;
     border-color: #C9C9C9;
     border-width: thin;
-    height: 2170px;
+    height: 2155px;
     width: 220px;
 }
 
