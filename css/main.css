@@ -53,7 +53,7 @@ body {
 
     video.localVideo {
         width: 97vw;
-        height: calc(97vw*0.5625);
+        height: calc(97vw*0.6925);
     }
 
     iframe.youtubeVideo {
@@ -72,6 +72,7 @@ body {
     nav.sidebar, div.sidebar {
         margin: 1em 0.2em 1em 0.2em;
     }
+
 }
 
 .myimages-small {
@@ -102,21 +103,25 @@ figure {
 }
 
 table {
+    display: table;
     border-collapse: collapse;
     border-style: dotted;
     border-color: #9D9C9A;
-    width: 25%;
+    margin-left: 0.1em;
+    width: 35%;
+    height: 100%;
 }
 
 th, td {
+    display: table-cell;
     border: 1px solid #9D9C9A;
     text-align: left;
-    height: 30px;
+    height: 2em;
 }
 
 .youtubeVideo {
-    width: 82vw;
-    height: calc(82vw*0.5625);
+    width: 80vw;
+    height: calc(80vw*0.5625);
     border:none;
 }
 
@@ -136,7 +141,7 @@ th, td {
 }
 
 .sidebar-long {
-    width: 14em;
+    width: 13em;
     position: absolute;
     left: 0;
     top: 0;
@@ -148,19 +153,18 @@ th, td {
 }
 
 .main {
-    margin-left: 14.1em;
-    /*background: #ffcccc;*/
+    margin-left: 13.1em;
 }
 
 .flexbox-mainheader-fauce {
-    margin-left: 14em;
+    margin-left: 13em;
 }
 
 /*experimental css ends here*/
 
 .localVideo {
-    width: 100vw;
-    height: calc(100vw*0.5625);
+    width: 90vw;
+    height: calc(90vw*0.6525);
     background-color: black !important;
 }
 
@@ -248,3 +252,4 @@ th, td {
     display: flex;
     flex-wrap: wrap;
 }
+
