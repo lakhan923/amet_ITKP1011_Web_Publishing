@@ -37,7 +37,7 @@ body {
     }
 
     nav.sidebar-long {
-        height: 210px;
+        height: 200px;
         width: 230px;
         float: left;
         margin: 1em 0.2em 1em 0.2em;
@@ -66,14 +66,13 @@ body {
     /*experimental css starts here*/
     div.main {
         margin-left: 0;
-
     }
     /*experimental css ends here*/
     nav.sidebar, div.sidebar {
         margin: 1em 0.2em 1em 0.2em;
     }
-
 }
+
 
 .myimages-small {
     max-width: 256px;
@@ -96,7 +95,6 @@ nav > ul {
     margin: 0.2em 0 0.2em 0;
 }
 
-
 figure {
     display: inline-block;
     text-align: center;
@@ -108,13 +106,13 @@ table {
     border-style: dotted;
     border-color: #9D9C9A;
     margin-left: 0.1em;
-    width: 35%;
+    width: 37%;
     height: 100%;
 }
 
 th, td {
     display: table-cell;
-    border: 1px solid #9D9C9A;
+    border: 1.5px solid #9D9C9A;
     text-align: left;
     height: 2em;
 }
@@ -122,7 +120,7 @@ th, td {
 .youtubeVideo {
     width: 80vw;
     height: calc(80vw*0.5625);
-    border:none;
+    border: none;
 }
 
 /*experimental css starts here*/
@@ -173,8 +171,8 @@ th, td {
     border-style: dashed;
     border-color: #9D9C9A;
     border-width: thick;
-    height: 210px;
-    width: 230px;
+    height: 200px;
+    width: 235px;
 }
 
     .sidebar a, .sidebar-long a {
@@ -182,11 +180,9 @@ th, td {
         color: #373BBE;
     }
 
-        .sidebar a:hover, .sidebar-long a:hover {
+        .sidebar a:hover, .sidebar-long a:hover, .flexbox-mainheader a:hover, .flexbox-footer a:hover {
             color: #064579;
         }
-
-
 
 .flexbox-mainheader, .flexbox-footer {
     display: flex;
@@ -197,7 +193,6 @@ th, td {
     .flexbox-mainheader > span {
         padding: 0.2rem 0 0.2rem 0.5rem;
     }
-
 
     .flexbox-mainheader :after {
         content: '|';
@@ -242,14 +237,7 @@ th, td {
     clear: right;
 }
 
-.push {
-    clear: both;
-    height: 2.5em;
-}
-
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
 }
-
